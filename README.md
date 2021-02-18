@@ -58,6 +58,9 @@ Run docker: (Take care to personalize to where you pulled this repo)
 
 ``docker run --rm -it -v `pwd`:/workspace/ rwdougla/aq_cpp bash``
 
+If running Docker in Windows(specifically through Powershell), the `pwd` command above will need to be substituted with a path like the following:
+``docker run -it -v //d/Users/Username/Documents/repos/cpp_interview:"/workspace/" rwdougla/aq_cpp bash``
+
 Inside Docker container:
 
 ```
